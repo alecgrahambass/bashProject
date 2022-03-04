@@ -1,3 +1,8 @@
+const pwd = require('./pwd');
+
+//pwd();
+
+
 let cmd = "";
 process.stdout.write("prompt > ");
 process.stdin.on("data", (data) => {
